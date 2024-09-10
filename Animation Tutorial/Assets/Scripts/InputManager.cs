@@ -13,6 +13,7 @@ public class InputManager : MonoBehaviour
     void Update()
     {
         bool isSpinning = animator.GetBool("Spin");
+
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             isSpinning = !isSpinning; // toggles opposite of current bool
